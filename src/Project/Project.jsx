@@ -7,13 +7,19 @@ const Project = () => {
       <h2>Dobročinné aukce</h2>
       <div className="container__project--description">
         <p>
-          Vytvoříme webovou platformu, na kterou bude možné na základě e-mailové
-          domluvy vkládat různé jedinečné předměty na dražbu. Výdělek z dražeb
-          bude použit na dobročinné účely. Dražitelé se budou moci registrovat
-          pomocí formuláře a po potvrzení totožnosti přihazovat na předměty v
-          aukcích ve stanoveném termínu. Rády bychom tuto platformu poskytly
-          nějaké neziskové organizaci, která by ji upravenou a doladěnou mohla
-          reálně využívat pro vlastní účely.
+          Webová platforma určená pro online dobročinné aukce.
+          <br />
+          <br />
+          Po skončení akademie bychom web rády nadále rozvíjely a nabídly
+          charitativní neziskové organizaci, která by jej využívala pro pořádání
+          vlastních aukcí.
+          <br />
+          <br />
+          Dobročinných sbírek jsme viděly mnoho, také uměleckých aukčních domů a
+          aukčních portálů, a tak jsme tyto dvě činnosti spojily. Chyběl nám
+          aukční web, jenž by spojoval příjemné s užitečným: někdo má hodně a
+          nestrádá, když daruje. Někdo si rád udělá radost a zároveň radost
+          přinese někomu, kdo to opravdu potřebuje.
         </p>
       </div>
     </div>

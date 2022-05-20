@@ -35,6 +35,10 @@
   padding-bottom: 1rem;
 }
 
+a {
+  font-weight: bold;
+}
+
 @media (min-width: 840px) {
   .container__about {
     width: 60%;

@@ -43,6 +43,7 @@ nav {
 
 nav a {
   padding: 1rem;
+  font-weight: bold;
 }
 
 footer {
