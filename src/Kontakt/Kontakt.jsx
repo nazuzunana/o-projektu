@@ -1,5 +1,5 @@
 import React from 'react';
-import instagram from './instagram.svg';
+import instagram from '../Kontakt/icons/instagram.svg';
 
 const Kontakt = () => {
   return (

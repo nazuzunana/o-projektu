@@ -1,5 +1,6 @@
 import React from 'react';
-import Viktoria from './Viktoria.png';
+import Viktoria from '../Mydve/img/Viktoria.png';
+import Zuzana from '../Mydve/img/zuzana.jpg';
 
 const Mydve = () => {
   return (
@@ -22,7 +23,7 @@ const Mydve = () => {
 
         <div className="card_person">
           <h2>Zuzana Červínová</h2>
-          <img className="author_photo" src={Viktoria} alt="fotka Viktória" />
+          <img className="author_photo" src={Zuzana} alt="fotka Zuzana" />
           <p className="author_description">
             Viktória momentálne pracuje v Saas firme na podpore, kde rieši
             požiadavky a problémy s firemnou aplikáciou na projektový manažment
