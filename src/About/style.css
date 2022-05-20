@@ -43,7 +43,6 @@
 
   .container__about--cards {
     flex-direction: row;
-    padding-bottom: 3rem;
     justify-content: space-between;
   }
 
