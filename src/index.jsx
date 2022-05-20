@@ -10,7 +10,7 @@ import Kontakt from './Kontakt';
 const App = () => (
   <div className="container">
     <header>
-      <h1>O projektu dobročinných aukcí</h1>
+      <h1>Záverečný projekt Digitální akademie Czechitas</h1>
     </header>
     <main>
       <nav>
@@ -22,7 +22,8 @@ const App = () => (
       <Outlet />
     </main>
     <footer>
-      <p>Vytvořeno pro Czechitas - Digitální akademie web Praha 2022</p>
+      <p> © 2022, Všechna práva vyhrazena</p>
+      <p> Czechitas: Digitální akademie web 2022</p>
     </footer>
   </div>
 );

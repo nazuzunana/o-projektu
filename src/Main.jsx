@@ -12,3 +12,5 @@ const Main = () => {
 };
 
 export default Main;
+
+/* dala by som sem nejaký obrázok z webu */

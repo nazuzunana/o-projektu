@@ -2,9 +2,9 @@ import React from 'react';
 
 const Projekt = () => {
   return (
-    <div className="card">
+    <div className="card_project">
       <h2>O projektu dobročinných aukcí</h2>
-      <div className="card__text">
+      <div className="project_text">
         <p>
           Vytvoříme webovou platformu, na kterou bude možné na základě e-mailové
           domluvy vkládat různé jedinečné předměty na dražbu. Výdělek z dražeb
