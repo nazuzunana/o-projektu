@@ -35,7 +35,7 @@
   padding-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 840px) {
   .container__about {
     width: 70%;
     padding: 2rem 0rem 5rem 0rem;
@@ -49,4 +49,9 @@
   .container__about--card {
     width: 45%;
   }
+}
+
+.icon {
+  width: 1rem;
+  margin: 0rem 0.3rem -0.1rem 0rem;
 }

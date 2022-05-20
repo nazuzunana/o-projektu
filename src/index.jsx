@@ -9,7 +9,7 @@ import Homepage from './Homepage/Homepage.jsx';
 const App = () => (
   <div className="container">
     <header>
-      <h1>Záverečný projekt Digitální akademie Czechitas</h1>
+      <h2>Záverečný projekt Digitální akademie Czechitas</h2>
     </header>
     <main>
       <nav>
