@@ -7,6 +7,11 @@
   text-align: center;
   padding: 2rem 2rem 5rem 2rem;
 }
+
+.container__about a:hover {
+  color: #fdcf76;
+}
+
 .container__about--cards {
   display: flex;
   flex-direction: column;
