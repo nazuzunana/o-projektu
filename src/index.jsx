@@ -2,10 +2,9 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 import './style.css';
-import Projekt from './Projekt/Projekt.jsx';
-import Mydve from './Mydve/Mydve.jsx';
-import Main from './Main/Main.jsx';
-import Kontakt from './Kontakt/Kontakt.jsx';
+import Project from './Project/Project.jsx';
+import About from './About/About.jsx';
+import Homepage from './Homepage/Homepage.jsx';
 
 const App = () => (
   <div className="container">
@@ -14,10 +13,9 @@ const App = () => (
     </header>
     <main>
       <nav>
-        <Link to="/">Hlavní stránka</Link>
-        <Link to="/projekt">O projektu</Link>
-        <Link to="/mydve">Vik a Zuz</Link>
-        <Link to="/kontakt">Kontakt</Link>
+        <Link to="/">DOMŮ</Link>
+        <Link to="/Project">PROJEKT</Link>
+        <Link to="/About">AUTORKY</Link>
       </nav>
       <Outlet />
     </main>
@@ -32,10 +30,9 @@ createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route path="/" element={<Main />} />
-        <Route path="projekt" element={<Projekt />} />
-        <Route path="mydve" element={<Mydve />} />
-        <Route path="kontakt" element={<Kontakt />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="Project" element={<Project />} />
+        <Route path="About" element={<About />} />
       </Route>
     </Routes>
   </BrowserRouter>,

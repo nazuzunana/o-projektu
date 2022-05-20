@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css';
 
-const Projekt = () => {
+const Project = () => {
   return (
-    <div className="card_project">
-      <h2>O projektu dobročinných aukcí</h2>
-      <div className="project_text">
+    <div className="container__project">
+      <h2>Dobročinné aukce</h2>
+      <div className="container__project--description">
         <p>
           Vytvoříme webovou platformu, na kterou bude možné na základě e-mailové
           domluvy vkládat různé jedinečné předměty na dražbu. Výdělek z dražeb
@@ -19,4 +20,4 @@ const Projekt = () => {
   );
 };
 
-export default Projekt;
+export default Project;

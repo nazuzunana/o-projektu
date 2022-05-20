@@ -1,0 +1,13 @@
+.container__homepage {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container__homepage h2 {
+  padding-bottom: 2rem;
+}
