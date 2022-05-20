@@ -19,7 +19,7 @@ const About = () => {
               href="https://www.instagram.com/viktoradelaville/"
               target="_blank"
             >
-              <img className="icon" src={instagram} alt="instagram ikona" />{' '}
+              <img className="icon" src={instagram} alt="instagram ikona" />
               viktoradelaville
             </a>
 
@@ -49,8 +49,8 @@ const About = () => {
           <img className="photo" src={Zuzana} alt="fotka Zuzana" />{' '}
           <div className="socials">
             <a href="https://www.instagram.com/nazuzunana/" target="_blank">
-              <img className="icon" src={instagram} alt="instagram ikona" />{' '}
-              @nazuzunana
+              <img className="icon" src={instagram} alt="instagram ikona" />
+              nazuzunana
             </a>
 
             <a href="#">
